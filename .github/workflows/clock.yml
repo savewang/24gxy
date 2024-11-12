@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "50 23 * * *"  # 上班卡-每天7点50分
-    - cron: "05 11 * * *"  # 下班卡-每天19点05分
+    - cron: "05 10 * * *"  # 下班卡-每天18点05分
 
 jobs:
   build:
